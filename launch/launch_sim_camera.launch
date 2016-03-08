@@ -1,0 +1,6 @@
+<launch>
+     <node name="scene_graph_ros" pkg="scene_graph_ros" type="scene_graph_ros_node" output="screen">
+     <param name="scene_file" value="/home/mklingen/prdev/SceneGraphRendering/data/bedroom1.obj" />
+     <param name="data_directory" value="/home/mklingen/prdev/SceneGraphRendering/data/" />
+    </node>
+</launch>
